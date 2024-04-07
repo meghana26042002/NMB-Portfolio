@@ -1,0 +1,90 @@
+.m {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: black;
+}
+
+.left {
+    font-weight: 800;
+    font-size: 2rem;
+    margin-top: 4rem;
+    color: white;
+}
+
+.name {
+    color: white;
+}
+
+.right {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 2rem;
+    margin-top: -1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-right: 5rem;
+}
+
+.section {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    padding: 12px 12px;
+}
+
+.l1 {
+    font-size: 1rem;
+    font-family: "times new roman";
+}
+
+.l2 {
+    font-size: 75px;
+    font-family: "times new roman";
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.l3 {
+    font-size: 30px;
+    font-family: "times new roman";
+}
+
+.l4 {
+    background-color: black;
+    padding: 15px;
+    color: #fff;
+    border: 10px solid black;
+    border-radius: 10px solid black;
+}
+
+/* Media query for tablets (768px width) */
+@media only screen and (max-width: 768px) {
+    .left {
+        font-size: 1.5rem;
+        margin-top: 10%;
+    }
+
+    .right {
+        margin-right: 10rem;
+        font-size: 1.5rem;
+    }
+}
+
+/* Media query for mobile devices (600px width) */
+@media only screen and (max-width: 600px) {
+    .left {
+        font-size: 1rem;
+        margin-top: 15%;
+    }
+
+    .right {
+        font-size: 1rem;
+        margin-top: -1rem;
+    }
+}

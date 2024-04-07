@@ -1,0 +1,166 @@
+/* Default styles for all screen sizes */
+.m {
+    background-color: black;
+}
+
+.am {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    color: white;
+}
+
+.p1 {
+    text-align: justify;
+    font-style: bold;
+    font-family: "times new roman";
+    font-size: 18px;
+    border-radius: 50px solid black;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    font-weight: 700;
+    padding: 1%;
+    color: white;
+}
+
+.git {
+    color: white;
+    font-size: 50px;
+    font-family: "times new roman";
+    text-align: center;
+    margin-top: -5rem;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+.icons {
+    border: 10px solid black;
+    margin-left: 50%;
+    margin-right: 2%;
+    margin-top: -15%;
+    font-family: 'Times New Roman';
+    padding: 2px;
+    background-color: white;
+}
+
+.link,
+.github,
+.email {
+    font-size: 25px;
+}
+
+/* Media query for tablets (768px width) */
+@media only screen and (max-width: 768px) {
+    .am {
+        font-size: 60px;
+        margin-top: 60px;
+    }
+
+    .p1 {
+        margin-left: 20px;
+    }
+
+    .git {
+        font-size: 40px;
+        margin-top: -3rem;
+    }
+
+    .icons {
+        margin-left: 5%;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+}
+
+/* Media query for mobile devices (600px width) */
+@media only screen and (max-width: 424px) {
+    .am {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .p1 {
+        margin-left: 10px;
+    }
+
+    .git {
+        font-size: 30px;
+        margin-top: -2rem;
+    }
+
+    .icons {
+        margin-left: 5%;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+
+    .link,
+    .github,
+    .email {
+        font-size: 20px;
+    }
+}
+
+
+/* 
+.m
+{
+    background-color: black;
+}
+
+.am
+{
+    font-size: 100px;
+    text-align:center;
+margin-top: 100px;
+margin-left: 20px;
+color: white;
+}
+.p1
+{
+    text-align:justify;
+    font-style: bold;
+    font-family: "times new roman";
+    font-size: 18px;
+    border-radius: 50px solid black;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    font-weight: 700;
+    padding: 1%;
+    color: white;
+    }
+.git
+            {
+                color:white;
+                font-size: 50px;
+                font-family:"times new roman";
+                text-align: center;
+                margin-top: -5rem;
+                margin-left: 25px;
+                padding: 5px;
+            }
+            .icons
+            {
+                border: 10px solid black;
+                margin-left: 50%;
+                margin-right: 2%;
+                margin-top: -15%;
+                font-family: 'Times New Roman';
+                padding: 2px;
+                background-color: white;
+            }
+            .link
+            {
+                font-size: 25px;
+                
+            }
+            .github
+            {
+                font-size: 25px;
+            }
+            .email
+            {
+                font-size: 25px;
+                
+            } */

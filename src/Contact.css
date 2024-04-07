@@ -1,0 +1,168 @@
+.abc {
+    background-color: black;
+    height: 100vh;
+    font-size: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cm {
+    font-size: 70px;
+    font-family: "times new roman";
+    text-align: center;
+    margin-top: -10px;
+    color: white;
+}
+
+.git12 {
+    color: white;
+    font-size: 40px;
+    font-family: "times new roman";
+    text-align: center;
+    margin-top: -70px;
+    margin-left: -20px;
+}
+
+.l1 {
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 70%;
+    margin-top: -70px;
+    color: white;
+}
+
+.l2 {
+    margin-top: -10px;
+    margin-left: -100px;
+    color: white;
+    text-align: center;
+}
+
+.icon {
+    margin-top: -20%;
+    margin-left: 5%;
+    font-size: 20px;
+    color: white;
+}
+
+.i1,
+.i2,
+.i3,
+.i4 {
+    padding: 10px;
+    margin-left: 30%;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    margin-left: 60%;
+    margin-top: 10px;
+    background-color: black;
+    border: 1px solid gray;
+    color: whitesmoke;
+}
+
+.m1 {
+    margin-top: -2%;
+    margin-left: 30%;
+}
+
+/* Media query for tablets (768px width) */
+@media only screen and (max-width: 768px) {
+    .abc {
+        font-size: 30px;
+    }
+
+    #cm {
+        font-size: 50px;
+    }
+
+    .git12 {
+        font-size: 30px;
+        margin-top: -50px;
+    }
+
+    .l1 {
+        font-size: 15px;
+        margin-left: 60%;
+        margin-top: -4%;
+    }
+
+    .l2 {
+        margin-top: -10px;
+        margin-left: 5%;
+        color: white;
+        text-align: center;
+    }
+
+    .icon {
+        margin-top: -40%;
+        margin-left: 5%;
+        font-size: 15px;
+    }
+
+    .m1 {
+        margin-top: -5%;
+        margin-left: 45%;
+    }
+
+    .btn {
+        padding: 10px;
+        margin-left: 37%;
+        margin-top: 10px;
+        background-color: black;
+        border: 1px solid gray;
+        color: whitesmoke;
+    }
+}
+
+/* Media query for mobile devices (600px width) */
+@media only screen and (max-width: 600px) {
+    .abc {
+        font-size: 20px;
+    }
+
+    #cm {
+        font-size: 40px;
+    }
+
+    .git12 {
+        font-size: 20px;
+        margin-top: -30px;
+    }
+
+    .l1 {
+        font-size: 25px;
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+
+    .icon {
+        margin-top: -70%;
+        margin-left: 5%;
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 10px;
+        margin-left: 45%;
+        margin-top: 10px;
+        background-color: black;
+        border: 1px solid gray;
+        color: whitesmoke;
+    }
+
+    .m1 {
+        margin-top: 3%;
+    }
+
+    .i1,
+    .i2,
+    .i3,
+    .i4 {
+        padding: 10px;
+        margin-left: 30%;
+        border: 1px solid gray;
+    }
+}

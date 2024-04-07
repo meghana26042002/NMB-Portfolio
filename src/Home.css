@@ -1,0 +1,140 @@
+/* Base styles */
+.abc {
+    background-color: black;
+    height: 100vh;
+    margin-top: -1px;
+    font-size: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img {
+    padding: -1px;
+    margin-left: 80rem;
+    margin-right: 18px;
+    margin-top: -17rem;
+    margin-bottom: -4px;
+    width: 1px;
+}
+
+.first {
+    font-size: 27px;
+    font-family: "times new roman";
+    margin-left: 50px;
+    padding: 15px;
+    color: white;
+}
+
+.second {
+    font-size: 75px;
+    font-family: "times new roman";
+    font-weight: 600;
+    padding: 10px;
+    color: white;
+    margin-left: 50px;
+}
+
+.third {
+    font-size: 30px;
+    font-family: "times new roman";
+    margin-left: 50px;
+    padding: 10px;
+    color: white;
+}
+
+.four {
+    background-color: black;
+    padding: 15px;
+    color: #fff;
+    border: 10px solid black;
+    border-radius: 10px solid black;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .img {
+        margin-left: 65%;
+        margin-top: -30%;
+    }
+
+    .first {
+        font-size: 2rem;
+        font-family: "times new roman";
+        margin-left: 30px;
+        padding: 15px;
+        color: white;
+    }
+
+    .second {
+        font-size: 3rem;
+        font-family: "times new roman";
+        font-weight: 600;
+        padding: 10px;
+        color: white;
+        margin-left: 30px;
+    }
+
+    .third {
+        font-size: 2.5rem;
+        font-family: "times new roman";
+        margin-left: 30px;
+        padding: 10px;
+        color: white;
+    }
+
+    .four {
+        background-color: black;
+        padding: 15px;
+        color: #fff;
+        border: 10px solid black;
+        border-radius: 10px solid black;
+        margin-left: 50px;
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .img {
+        margin-left: 55%;
+        margin-top: -50%;
+        width: -60%;
+    }
+
+    .first {
+        font-size: 1rem;
+        font-family: "times new roman";
+        margin-left: 3px;
+        padding: 15px;
+        color: white;
+    }
+
+    .second {
+        font-size: 1.5rem;
+        font-family: "times new roman";
+        font-weight: 600;
+        padding: 10px;
+        color: white;
+        margin-left: 3px;
+    }
+
+    .third {
+        font-size: 1rem;
+        font-family: "times new roman";
+        margin-left: 3px;
+        padding: 10px;
+        color: white;
+    }
+
+    .four {
+        background-color: black;
+        padding: 15px;
+        color: #fff;
+        border: 10px solid black;
+        border-radius: 10px solid black;
+        margin-left: 50px;
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
